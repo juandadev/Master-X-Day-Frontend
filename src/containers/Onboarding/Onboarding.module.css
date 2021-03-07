@@ -31,7 +31,6 @@
   width: 32rem;
   height: 5.4rem;
   border-radius: 1rem;
-  outline: none;
   border: none;
   padding: 1rem 2.5rem;
   color: #fff;
@@ -42,29 +41,40 @@
 }
 
 .id__input::placeholder {
-  color: 747474;
+  color: #747474;
   text-align: center;
   font-size: 1.8rem;
   font-family: "Roboto";
   color: #fff;
 }
 
+.error {
+  display: flex;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.form {
+  display: grid;
+}
+
 @media (min-width: 768px) {
   .title {
-    font-size: 12rem;
+    font-size: 8rem;
   }
   .subtitle {
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 5rem auto;
   }
   .id__input {
-    width: 70rem;
-    height: 10rem;  
-    border-radius: 3rem;
+    width: 45rem;
+    height: 5rem;  
+    border-radius: 1.5rem;
     margin-bottom: 3rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .id__input::placeholder {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
+

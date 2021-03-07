@@ -6,7 +6,6 @@
   height: 5.6rem;
   border-radius: 1rem;
   font-size: 2.4rem;
-  outline: none;
   border: none;
   margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -16,9 +15,9 @@
 
 @media (min-width: 768px) {
   .Button {
-    width: 25rem;
-    height: 10rem;  
+    width: 15rem;
+    height: 6rem;  
     border-radius: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
